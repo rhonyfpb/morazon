@@ -1,0 +1,136 @@
+html,body {
+	margin: 0px;
+	height: 100%;
+}
+
+body {
+    color: #4C4C4C;
+    font-family: "BentonSans","Helvetica Neue",Helvetica,Arial,Geneva,sans-serif;
+    line-height: 1.4em;
+}
+
+.center {
+    text-align: center;
+}
+
+#header {
+    background-color: #09C;
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    color: #FFF;
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(at 50% top , rgba(80, 192, 233, 0.6) 0%, rgba(80, 192, 233, 0) 75%), radial-gradient(at right top , #33B5E5 0%, rgba(121, 74, 162, 0) 57%);
+}
+
+#content1 {
+ 	background-color: #0FF;
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    color: #4c4c4c;
+    margin: 0px;
+    padding: 100px 0px 100px 0px;
+    /*background-image: radial-gradient(at 50% top , rgba(80, 192, 233, 0.6) 0%, rgba(80, 192, 233, 0) 75%), radial-gradient(at right top , #33B5E5 0%, rgba(121, 74, 162, 0) 57%);*/
+}
+
+*.full-viewport {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+}
+
+*.full-viewport .wrapper.center {
+    display: table-cell;
+    padding: 0px 12px 100px;
+    position: relative;
+    vertical-align: middle;
+}
+
+*.full-viewport .more {
+    background-image: url('/img/more.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: inherit;
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    margin-left: -13px;
+    height: 16px;
+    width: 26px;
+}
+
+section {
+	background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    margin: 0px;
+    padding: 70px 10px 70px 10px;
+    box-shadow: 0 10px 10px -10px #ccc inset;
+}
+
+
+.navbar {border: 1px none; background-color: #0FE; border-radius: 0px;}
+/*.navbar {border: 1px none; background-color: #09C; border-radius: 0px;}*/
+.navbar .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #FFFFFF}
+.navbar .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #FFFFFF}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #FFFFFF}
+.navbar { border-color: transparent; }
+.navbar .navbar-brand { color: #FFFFFF}
+.navbar .navbar-brand:hover { color: #FFFFFF}
+/*.navbar .navbar-nav>li>a { color: #FFFFFF; font-weight: bold;}*/
+.navbar .navbar-nav>li>a { color: #4c4c4c; font-weight: bold;}
+.navbar .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: transparent; color: #4c4c4c}
+.navbar .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.navbar-nav.navbar-right:last-child {margin-right: 0px;}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus { background-color: #09C; border-color: #428bca;}
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 770px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+
+.jumbotron {
+	color: #000000;
+	background: rgba(51, 181, 229, 0.5) url("../img/world.png") no-repeat center center;
+	text-align: center;
+	border: 1px solid #0099CC;
+	box-shadow: 0 0px 50px rgba(0, 0, 0, 0.125);
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "morazon",
+  "version": "0.0.1",
+  "description": "pagina web morazon.co",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhonyfpb/morazon.git"
+  },
+  "keywords": [
+    "morazon",
+    "web"
+  ],
+  "author": "Rhony Pedraza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhonyfpb/morazon/issues"
+  },
+  "homepage": "https://github.com/rhonyfpb/morazon",
+  "dependencies": {
+    "compression": "^1.2.1",
+    "express": "^4.10.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
