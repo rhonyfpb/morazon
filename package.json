@@ -24,8 +24,5 @@
   "dependencies": {
     "compression": "^1.2.1",
     "express": "^4.10.4"
-  },
-  "devDependencies": {
-    "mocha": "^2.0.1"
   }
 }
